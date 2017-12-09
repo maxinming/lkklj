@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/wei.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-next"></div>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!--第一屏开始-->
+      <div class="swiper-slide">
+        <div class="top ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+          <img src="img/one.jpg" alt="">
+        </div>
+        <div class="conter ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
+          <img src="img/womenjiehunla.png" alt="">
+        </div>
+        <div class="buttom ani" swiper-animate-effect=" bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+          <img src="img/jiezhi.png" alt="">
+        </div>
+      </div>
+      <!--第一屏结束-->
+      <!--第二屏开始-->
+      <div class="swiper-slide two">
+        <div class="top ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="1s">
+          <img src="img/two_top.jpg" alt="">
+        </div>
+        <div class="center ani" swiper-animate-effect=" zoomInDown" swiper-animate-duration="1s" swiper-animate-delay="2s">
+          <img src="img/two_center.jpg" alt="">
+        </div>
+        <div class="bottom ani" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="1s" swiper-animate-delay="1s">
+          <img src="img/two_bottom.jpg" alt="">
+        </div>
+      </div>
+      <!--第二屏结束-->
+      <!--第三屏开始-->
+      <div class="swiper-slide three">
+        <div>
+          <!--<img src="img/three.jpg" alt="">-->
+        </div>
+      </div>
+      <!--第三屏结束-->
+      <div class="swiper-slide four">感情需要人浏览</div>
+      <div class="swiper-slide five">还是要人珍藏</div>
+      <div class="swiper-slide six">开完美就开到了别的土壤</div>
+      
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+<!--音乐开始-->
+<div id="music">
+  <img src="img/music_off.png" alt="" class="musicsd">
+  <img src="img/music.gif" alt="" class="musicas">
+  <audio src="img/bgmusic.mp3" autoplay loop="loop"></audio>
+</div>
+<!--音乐部分结束-->
+
+
+  <!-- Swiper JS -->
+  <script src="js/main.js"></script>
+  <script src="js/swiper.animate1.0.2.min.js"></script>
+  <script src="js/wei.js"></script>
+
+</body>
+</html>
